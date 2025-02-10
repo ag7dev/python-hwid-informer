@@ -76,10 +76,10 @@ def main():
     ctk.set_default_color_theme("dark-blue")
     
     root = ctk.CTk()
-    root.title("System Informer Pro")
+    root.title("ag7-dev.de - HWID Tool")
     root.geometry("400x600") 
     
-    theme_selector = ctk.CTkOptionMenu(root, values=["Light", "Dark", "System"], command=update_theme)
+    theme_selector = ctk.CTkOptionMenu(root, values=["System", "Dark", "Light"], command=update_theme)
     theme_selector.pack(side="top", anchor="ne", padx=10, pady=10)
     
     tabview = ctk.CTkScrollableFrame(root)
